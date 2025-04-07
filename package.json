@@ -1,0 +1,23 @@
+{
+  "name": "checkov-report-action",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/github/commit-activity/t/subhamay-bhattacharyya-gha/checkov-report-action)&nbsp;![](https://img.shields.io/github/last-commit/subhamay-bhattacharyya-gha/checkov-report-action)&nbsp;![](https://img.shields.io/github/release-date/subhamay-bhattacharyya-gha/checkov-report-action)&nbsp;![](https://img.shields.io/github/repo-size/subhamay-bhattacharyya-gha/checkov-report-action)&nbsp;![](https://img.shields.io/github/directory-file-count/subhamay-bhattacharyya-gha/checkov-report-action)&nbsp;![](https://img.shields.io/github/issues/subhamay-bhattacharyya-gha/checkov-report-action)&nbsp;![](https://img.shields.io/github/languages/top/subhamay-bhattacharyya-gha/checkov-report-action)&nbsp;![](https://img.shields.io/github/commit-activity/m/subhamay-bhattacharyya-gha/checkov-report-action)&nbsp;![](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/bsubhamay/93ada6d2c5683145114fe5cdf54e47a0/raw/checkov-report-action.json?)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhamay-bhattacharyya-gha/checkov-report-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhamay-bhattacharyya-gha/checkov-report-action/issues"
+  },
+  "homepage": "https://github.com/subhamay-bhattacharyya-gha/checkov-report-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  }
+}
