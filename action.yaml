@@ -8,5 +8,5 @@ branding:
   logo: 'https://raw.githubusercontent.com/subhamay-bhattacharyya-gha/cfn-parameters-action/main/logo.png'
 
 runs:
-  using: "node20"
+  using: "node24"
   main: "main.js"

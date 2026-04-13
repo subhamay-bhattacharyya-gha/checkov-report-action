@@ -73,6 +73,14 @@ function run() {
   }
 
   const data = extractDataFromSarif(sarifPath);
+
+  if (data.length === 0) {
+    const passMsg = `### 🛡️ Checkov Scan Report\n\n✅ All checks passed — no findings.\n`;
+    fs.appendFileSync(summaryPath, passMsg);
+    core.info('[Checkov] All checks passed — no findings.');
+    return;
+  }
+
   const table = formatMarkdownTable(data);
   const details = formatDetailsSection(data);
 
